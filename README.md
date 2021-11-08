@@ -9,35 +9,35 @@ EEE2041 COMPUTER VISION AND GRAPHICS
 
 # Contents
 
-[1. ABSTRACT 1](#_Toc71589064)
+[1. ABSTRACT 1](#1-abstract)
 
-[2. METHODS 2](#_Toc71589065)
+[2. METHODS 2](#2-methods)
 
-[2.2 ENVIRONMENT 2](#_Toc71589066)
+[2.2 ENVIRONMENT 2](#22-environment)
 
-[2.2.1 GAMEPLAY 2](#_Toc71589067)
+[2.2.1 GAMEPLAY 2](#221-gameplay)
 
-[2.2.2 MAPS 2](#_Toc71589068)
+[2.2.2 MAPS 2](#222-maps)
 
-[2.2.3 SKYBOX 2](#_Toc71589069)
+[2.2.3 SKYBOX 2](#223-skybox)
 
-[2.2.4 LIGHTING 2](#_Toc71589070)
+[2.2.4 LIGHTING 2](#224-lighting)
 
-[2.3 MODEL DATA 2](#_Toc71589071)
+[2.3 MODEL DATA 2](#23-model-data)
 
-[2.4 PLANE MOVEMENT 3](#_Toc71589072)
+[2.4 PLANE MOVEMENT 3](#23-model-data)
 
-[2.5 CAMERA 3](#_Toc71589073)
+[2.5 CAMERA 3](#25-camera)
 
-[2.5.1 THIRD PERSON CAMERA 3](#_Toc71589074)
+[2.5.1 THIRD PERSON CAMERA 3](#251-third-person-camera)
 
-[2.5.2 FIRST PERSON CAMERA 3](#_Toc71589075)
+[2.5.2 FIRST PERSON CAMERA 3](#251-third-person-camera)
 
-[2.6 HUD 3](#_Toc71589076)
+[2.6 HUD 3](#26-hud)
 
-[3. RESULTS 3](#_Toc71589077)
+[3. RESULTS 3](#3-results)
 
-[4. CONCLUSION 4](#_Toc71589078)
+[4. CONCLUSION 4](#4-conclusion)
 
 # 1. ABSTRACT
 
@@ -81,7 +81,7 @@ Models are all done the same way. An object is initialised, and a texture is loa
 
 Plane movement was done by using two matrices, a transformation matrix and a rotation matrix. Forward transform is applied to the transformation matrix, and each rotation, yaw, pitch and roll are separately applied to the rotation matrix. These matrices are then multiplied and then multiplied with the plane&#39;s matrix which is then set equal to the plane&#39;s matrix translating and rotating the plane as intended. This gives a close to realistic plane movement with the only flow being the plane instantly snapping instead of decelerating when a key is lifted.
 
-2.5 CAMERA
+## 2.5 CAMERA
 
 ### 2.5.1 THIRD PERSON CAMERA
 
@@ -120,5 +120,3 @@ _Figure 5 - Example Map 2_
 # 4. CONCLUSION
 
 The project was a great success from getting a plane to move around semi-realistically to having an environment with a fully functioning skybox. The implantation of all the required features was achieved including, a physics-based movement of the plane, customisable maps that are read from a file, third person and first-person camera options, a full skybox with a separate shader, collision detections of rings and the ground. Score count and a heads-up display. The project was a success for filling out the required criteria and also as a learning tool teaching about how modern game engines work under the hood in terms of implementing graphics relying heavily on vector mathematics.
-
-3
