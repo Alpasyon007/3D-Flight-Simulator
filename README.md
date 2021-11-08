@@ -97,15 +97,15 @@ Hud was made by rendering text on the screen using the built-in glut bitmap char
 
 # 3. RESULTS
 
-![](RackMultipart20211108-4-ouc9y1_html_f2098ab3d2a4898b.png) ![](RackMultipart20211108-4-ouc9y1_html_997b5befaa46ea38.png)
+![Third Person Camera](https://imgur.com/zs9QTak) ![First Person Camera](https://imgur.com/a5hya0L)
 
 _Figure 1 - Third Person Camera Figure 2 - First Person Camera_
 
-![](RackMultipart20211108-4-ouc9y1_html_d8b8e8f7ae794ff7.png) ![](RackMultipart20211108-4-ouc9y1_html_35fc665c0a6a734c.png)
+![Example Map 1](https://imgur.com/78MVUju) ![Ring Close-up](https://imgur.com/wvFuFfa)
 
 _Figure 3 - Example Map 1 Figure 4 - Ring Close-up_
 
-![](RackMultipart20211108-4-ouc9y1_html_a68c165cf08a82ef.png)
+![Example Map 2](https://imgur.com/DzWsS74)
 
 _Figure 5 - Example Map 2_
 
